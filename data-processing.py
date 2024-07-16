@@ -91,8 +91,8 @@ def save_data(df: pd.DataFrame, df_comments: pd.DataFrame, profile_username: str
     print(f"Comments data saved to {comments_filename}")
 
 def main():
-    insta_username = 'me_nushki'  # replace with your Instagram username
-    insta_password = 'ILOVEMYPARENTS@003'  # replace with your Instagram password
+    insta_username = 'your_username'  # replace with your Instagram username
+    insta_password = 'your_password'  # replace with your Instagram password
     profile_username = 'freakinsindia'  # replace with the Instagram profile username you want to scrape
     num_posts = 10
     
